@@ -11,8 +11,9 @@ object_size(1)    ## Memory allocated for a single numeric vector
 object_size("R")  ## Memory allocated for a single character vector
 object_size(TRUE) ## Memory allocated for a single logical vector
 object_size(1i)   ## Memory allocated for a single complex vector
-
 object_size(integer())
+object_size(integer())
+# size(1)
 object_size(character())
 object_size(logical())
 object_size(complex())
